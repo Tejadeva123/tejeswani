@@ -1,0 +1,24 @@
+a={"america":"banachi","cheguvera":"dronacharya","year":1234}
+print(a)
+print(type(a))
+print(len(a))
+x=a["cheguvera"]
+print(x)
+a["year"]=2000
+print(a)
+a.update({"year":2012})
+print(a)
+a["orange"]="gfdywd"
+print(a)
+a.pop("america")
+print(a)
+print(a)
+a.popitem()
+print(a)
+a.clear()
+print(a)
+a={"america":"banachi","cheguvera":"dronacharya","year":1234}
+print(a)
+for x in a:
+    print(a)
+y=a.copy()
