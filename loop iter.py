@@ -1,0 +1,10 @@
+x=("conzura solutions")
+y=iter(x)
+print(next(y))
+print(next(y))
+print(next(y))
+print(next(y))
+print(next(y))
+print(next(y))
+for i in x:
+    print(x)
